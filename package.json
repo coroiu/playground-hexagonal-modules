@@ -1,0 +1,19 @@
+{
+  "name": "hexagonal-modules",
+  "version": "1.0.0",
+  "description": "Personal sandbox belonging to Andreas Coroiu.",
+  "scripts": {
+    "build": "tsc --build deployables/main",
+    "start": "ts-node-dev deployables/main/src/index.ts",
+    "start:prd": "node deployables/main/dist/index.js"
+  },
+  "author": "Andreas Coroiu",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "typescript": "^4.3.5"
+  }
+}
