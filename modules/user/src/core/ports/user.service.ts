@@ -1,3 +1,5 @@
+/// <reference path="../../types.d.ts" />
+
 import { User } from '../user';
 
 import someFunction from 'identity-function';
