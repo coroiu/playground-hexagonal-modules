@@ -9,5 +9,5 @@
         "strict": true,
         "forceConsistentCasingInFileNames": true
     },
-    "exclude": ["node_modules"]
+    "include": ["**/*.d.ts"]
 }

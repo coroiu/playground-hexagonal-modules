@@ -1,6 +1,11 @@
 import Koa from 'koa';
 
+import { UserModule } from '../../../modules/user/src';
+
 const app = new Koa();
+
+const userModule = new UserModule();
+userModule.koaAdapter.applyMiddleware(app);
 
 app.use(async (ctx) => {
   ctx.body = 'Hello world';
