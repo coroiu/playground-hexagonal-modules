@@ -8,6 +8,11 @@
         "esModuleInterop": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,
+        "rootDir": ".",
+        "outDir": "dist",
+        "baseUrl": ".",
+        "resolveJsonModule": true
     },
-    "include": ["**/*.d.ts"]
+    "include": ["**/*.ts"],
+    "files": ["tsconfig.json"]
 }
