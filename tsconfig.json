@@ -11,8 +11,10 @@
         "rootDir": ".",
         "outDir": "dist",
         "baseUrl": ".",
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "paths": {
+            "@modules/user": ["modules/user/src"]
+        }
     },
-    "include": ["**/*.ts"],
     "files": ["tsconfig.json"]
 }

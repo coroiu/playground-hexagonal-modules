@@ -5,9 +5,9 @@
   "scripts": {
     "build": "tsc",
     "build:main": "tsc --project deployables/main",
-    "start": "ts-node-dev -r tsconfig-paths/register deployables/main/index.ts",
+    "start": "ts-node-dev -r tsconfig-paths/register deployables/main/src/index.ts",
     "start:prd": "cd dist && node -r tsconfig-paths/register deployables/main/index.js",
-    "start:main": "cd deployables/main/dist && node -r tsconfig-paths/register deployables/main/index.js"
+    "start:main": "cd deployables/main/dist && node -r tsconfig-paths/register deployables/main/src/index.js"
   },
   "author": "Andreas Coroiu",
   "dependencies": {

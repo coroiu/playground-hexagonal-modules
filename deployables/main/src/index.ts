@@ -1,6 +1,6 @@
 import Koa from 'koa';
 
-import { UserModule } from 'modules/user';
+import { UserModule } from '@modules/user';
 
 const app = new Koa();
 

@@ -4,5 +4,5 @@
         "outDir": "dist"
     },
     "include": [],
-    "files": ["index.ts", "../../tsconfig.json"]
+    "files": ["src/index.ts", "../../tsconfig.json"]
 }
