@@ -1,9 +1,11 @@
-# Sandbox: Hexagonal Architecture using multiple tsconfig targets
+# Sandbox: Hexagonal Architecture using multiple tsconfig projects
 Personal sandbox belonging to Andreas Coroiu.
 
-Experiments with the usage of multiple tsconfig compilation targets for a hexagonal architecture organized into modules (see organize by component in the book Clean Architecture) with deployments being a separate concern.
+Experiments with the usage of multiple tsconfig compilation projects for a hexagonal architecture organized into modules (see organize by component in the book Clean Architecture) with deployments being a separate concern.
 
 ## Commentary
+- The `dist` folder should only contain the modules that were actually used by that deployment.
+- Unfortunately, `node_modules` is common for the entire project, so all dependenices will need to be installed in all deployemnts.
 - tsconfig.json needs to be present in the dist folder for path mapping to work correctly.
 - The `dist` structure needs to contain `src` folders so that the folder structures match. A bit unfortunate.
 
@@ -17,9 +19,6 @@ This repository is an example representing (1) one (micro)service. My argument i
 
 ### Organize by Component
 - "The Missing Chapter" in the book Clean Architecture: https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164
-
-### NPM Workspaces
-- https://docs.npmjs.com/cli/v7/using-npm/workspaces
 
 ### Microservices
 - https://microservices.io/patterns/decomposition/decompose-by-business-capability.html
