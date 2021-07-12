@@ -1,0 +1,11 @@
+{
+  "name": "@hexagonal-modules/user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: Here you can add tests for this module.\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

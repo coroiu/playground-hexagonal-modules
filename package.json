@@ -4,10 +4,9 @@
   "description": "Personal sandbox belonging to Andreas Coroiu.",
   "scripts": {
     "build": "tsc",
-    "build:main": "tsc --project deployables/main",
-    "start": "ts-node-dev -r tsconfig-paths/register deployables/main/src/index.ts",
-    "start:prd": "cd dist && node -r tsconfig-paths/register deployables/main/index.js",
-    "start:main": "cd deployables/main/dist && node -r tsconfig-paths/register deployables/main/src/index.js"
+    "build:main": "npm run build --prefix deployables/main",
+    "start": "npm start --prefix deployables/main",
+    "start:prd": "npm run start:prd --prefix deployables/main"
   },
   "author": "Andreas Coroiu",
   "dependencies": {

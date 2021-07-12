@@ -1,0 +1,13 @@
+{
+  "name": "@hexagonal-modules/main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node-dev -r tsconfig-paths/register src/index.ts",
+    "start:prd": "cd dist && node -r tsconfig-paths/register deployables/main/src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
