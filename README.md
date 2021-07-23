@@ -13,7 +13,7 @@ Experiments with the usage of multiple tsconfig compilation projects for a hexag
 This repository is an example representing (1) one (micro)service. My argument is that a service does not have to be limited to a single artifact/deployable. The service simply encapsulates everything related to a business capability, providing multiple interfaces in and out of the given context.
 
 ### Reasoning
-The book "Microservices Patterns" says the following about services:
+The book "Microservice Patterns" says the following about services:
 
 > An important characteristic of the microservice architecture is that the services are loosely coupled (https://en.wikipedia.org/wiki/Loose_coupling). All interaction with the service happens via its API, which encapsulates its implementation details. This enables the implementation of the  service to change without impacting its clients. Loosely coupled services are key to improving an application’s development time attributes, including its maintainability and testability. They are much easier to understand, change, and test.
 
@@ -41,3 +41,4 @@ Therefore, by not creating multiple services within one team we remove the overh
 ### Microservices
 - https://microservices.io/patterns/decomposition/decompose-by-business-capability.html
 - https://microservices.io/patterns/decomposition/service-per-team.html
+- https://www.amazon.se/Microservice-Patterns-Examples-Chris-Richardson/dp/1617294543
