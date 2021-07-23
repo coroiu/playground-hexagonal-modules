@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node-dev -r tsconfig-paths/register src/index.ts",
-    "start:prd": "cd dist && node -r tsconfig-paths/register deployables/main/src/index.js"
+    "start:prd": "cd dist && node -r tsconfig-paths/register artifacts/main/src/index.js"
   },
   "author": "",
   "license": "ISC"
