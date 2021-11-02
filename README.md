@@ -17,7 +17,7 @@ The book "Microservice Patterns" says the following about services:
 
 > An important characteristic of the microservice architecture is that the services are loosely coupled (https://en.wikipedia.org/wiki/Loose_coupling). All interaction with the service happens via its API, which encapsulates its implementation details. This enables the implementation of the  service to change without impacting its clients. Loosely coupled services are key to improving an application’s development time attributes, including its maintainability and testability. They are much easier to understand, change, and test.
 
-Because the teams at Prisjakt have been created after business capability and sub-domains, I argue that it is reasonable to assume all code produced by the teams will be highly interconnected. Therefore: 
+When teams are created after business capability or sub-domains, I argue that it is reasonable to assume all code produced by the teams will be highly interconnected. Therefore: 
 
 - By encapsulating everything in a single service we create high cohesion.
 - By creating stable and versioned APIs around our service we create loose coupling between teams depending on our service.
